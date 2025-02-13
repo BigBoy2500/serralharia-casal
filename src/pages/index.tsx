@@ -50,8 +50,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Serralharia Casal - Soluções em Ferro e Alumínio</title>
-        <meta name="description" content="Serralharia Casal especializada em trabalhos com ferro e alumínio" />
+        <title>Serralharia Casal Barcelos - Especialistas em Ferro e Alumínio | Orçamento Grátis</title>
+        <meta name="description" content="Serralharia Casal em Barcelos: 20+ anos de experiência em portões, estruturas metálicas, coberturas e alumínios. Peça já o seu orçamento gratuito!" />
+        <meta name="keywords" content="serralharia barcelos, portões automáticos, estruturas metálicas, coberturas, alumínio, ferro, aço inox, orçamento grátis" />
       </Head>
 
       <Header />
@@ -61,7 +62,7 @@ export default function Home() {
         <section className="relative h-[600px]">
           <Image
             src="/images/banner.jpg"
-            alt="Banner Serralharia"
+            alt="Serralharia Casal - Trabalhos em Ferro e Alumínio em Barcelos"
             fill
             className="object-cover"
             priority

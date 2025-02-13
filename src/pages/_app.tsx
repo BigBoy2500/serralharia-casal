@@ -7,7 +7,19 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Serralharia Casal - Soluções em Ferro e Alumínio</title>
+        <title>Serralharia Casal - Soluções em Ferro e Alumínio em Barcelos</title>
+        <meta name="description" content="Serralharia Casal em Barcelos - Especialistas em trabalhos com ferro, alumínio, portões, estruturas metálicas e muito mais. Mais de 20 anos de experiência." />
+        <meta name="keywords" content="serralharia, serralharia casal, serralharia barcelos, portões, alumínio, ferro, estruturas metálicas, portões seccionados, coberturas" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Serralharia Casal" />
+        <meta name="geo.region" content="PT-03" />
+        <meta name="geo.placename" content="Barcelos" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Serralharia Casal - Soluções em Ferro e Alumínio em Barcelos" />
+        <meta property="og:description" content="Serralharia Casal em Barcelos - Especialistas em trabalhos com ferro, alumínio, portões, estruturas metálicas e muito mais. Mais de 20 anos de experiência." />
+        <meta property="og:url" content="https://www.serralhariacasal.com" />
+        <meta property="og:site_name" content="Serralharia Casal" />
+        
         {/* Favicon básico */}
         <link rel="icon" href="/favicon.ico" sizes="48x48" />
         

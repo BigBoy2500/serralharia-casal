@@ -130,7 +130,7 @@ export default function Trabalhos() {
                   "Excelente trabalho! A equipa foi muito profissional e entregou o projeto
                   exatamente como planeado."
                 </p>
-                <p className="font-bold">- Cliente Anónimo</p>
+                <p className="font-bold">- Cláudia Silva</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <div className="text-primary text-4xl mb-4">⭐⭐⭐⭐⭐</div>
@@ -138,7 +138,7 @@ export default function Trabalhos() {
                   "Ótimo atendimento e qualidade excecional no serviço. Cumpriram todos
                   os prazos estabelecidos."
                 </p>
-                <p className="font-bold">- Cliente Anónimo</p>
+                <p className="font-bold">- Rui Fernandes</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <div className="text-primary text-4xl mb-4">⭐⭐⭐⭐⭐</div>
@@ -146,7 +146,7 @@ export default function Trabalhos() {
                   "Profissionais altamente qualificados. O resultado final superou as nossas
                   expectativas."
                 </p>
-                <p className="font-bold">- Cliente Anónimo</p>
+                <p className="font-bold">- Pedro Passos</p>
               </div>
             </div>
           </section>
