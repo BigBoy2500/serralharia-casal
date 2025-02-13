@@ -50,8 +50,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Serralharia - Soluções em Ferro e Alumínio</title>
-        <meta name="description" content="Serralharia especializada em trabalhos com ferro e alumínio" />
+        <title>Serralharia Casal - Soluções em Ferro e Alumínio</title>
+        <meta name="description" content="Serralharia Casal especializada em trabalhos com ferro e alumínio" />
       </Head>
 
       <Header />

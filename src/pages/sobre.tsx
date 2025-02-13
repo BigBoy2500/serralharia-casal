@@ -7,8 +7,8 @@ export default function Sobre() {
   return (
     <>
       <Head>
-        <title>Nossa História - Serralharia</title>
-        <meta name="description" content="Conheça a história da nossa serralharia" />
+        <title>Nossa História - Serralharia Casal</title>
+        <meta name="description" content="Conheça a história da Serralharia Casal" />
       </Head>
 
       <Header />

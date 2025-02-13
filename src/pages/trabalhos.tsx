@@ -80,8 +80,8 @@ export default function Trabalhos() {
   return (
     <>
       <Head>
-        <title>Nossos Trabalhos - Serralharia</title>
-        <meta name="description" content="Conheça alguns dos nossos trabalhos em serralharia" />
+        <title>Nossos Trabalhos - Serralharia Casal</title>
+        <meta name="description" content="Conheça alguns dos nossos trabalhos na Serralharia Casal" />
       </Head>
 
       <Header />

@@ -7,6 +7,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <title>Serralharia Casal - Soluções em Ferro e Alumínio</title>
         {/* Favicon básico */}
         <link rel="icon" href="/favicon.ico" sizes="48x48" />
         

@@ -88,8 +88,8 @@ export default function Contacto() {
   return (
     <>
       <Head>
-        <title>Contacto - Serralharia</title>
-        <meta name="description" content="Entre em contacto conosco para orçamentos e informações" />
+        <title>Contacto - Serralharia Casal</title>
+        <meta name="description" content="Entre em contacto com a Serralharia Casal para orçamentos e informações" />
       </Head>
 
       <Header />
