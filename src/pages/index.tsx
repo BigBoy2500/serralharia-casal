@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Serralharia Casal Barcelos - Especialistas em Ferro e Alumínio | Orçamento Grátis</title>
+        <title>Serralharia Casal - Especialistas em Ferro e Alumínio</title>
         <meta name="description" content="Serralharia Casal em Barcelos: 20+ anos de experiência em portões, estruturas metálicas, coberturas e alumínios. Peça já o seu orçamento gratuito!" />
         <meta name="keywords" content="serralharia barcelos, portões automáticos, estruturas metálicas, coberturas, alumínio, ferro, aço inox, orçamento grátis" />
       </Head>
