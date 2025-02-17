@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import React from 'react';
 import Head from 'next/head';
+import Script from 'next/script';
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -17,7 +18,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Serralharia Casal - Soluções em Ferro e Alumínio em Barcelos" />
         <meta property="og:description" content="Serralharia Casal em Barcelos - Especialistas em trabalhos com ferro, alumínio, portões, estruturas metálicas e muito mais. Mais de 20 anos de experiência." />
-        <meta property="og:url" content="https://www.serralhariacasal.com" />
+        <meta property="og:url" content="https://www.serralhariacasal.pt" />
         <meta property="og:site_name" content="Serralharia Casal" />
         
         {/* Favicon básico */}
@@ -36,6 +37,21 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-TileImage" content="/favicon-144x144.png" />
       </Head>
+
+      {/* Google Analytics */}
+      <Script async
+        src="https://www.googletagmanager.com/gtag/js?id=G-0D4MB29C30"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-0D4MB29C30');
+        `}
+      </Script>
+
       <Component {...pageProps} />
     </>
   );
