@@ -34,7 +34,7 @@ export default function Sobre() {
               A Serralharia Casal, fundada à mais de 20 anos, situa-se atualmente na freguesia de Aldreu no concelho de Barcelos.
               </p>
               <p className="text-gray-600 mb-4">
-              Os nossos funcionários são profissionais, experientes e competentes. Esecutamos 
+              Os nossos funcionários são profissionais, experientes e competentes. Executamos 
               trabalhos em alumínio, ferro e aço inox. Fabricamos toda a caixilharia em alumínio 
               e aço inox, estruturas metálicas, grades de segurança, coberturas em painel sandwich, 
               portões seccionados e todos os automatismos para a sua correta funcionalidade.
