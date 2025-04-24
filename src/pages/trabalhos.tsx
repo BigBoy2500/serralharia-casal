@@ -16,6 +16,12 @@ export default function Trabalhos() {
       descricao: 'Viveiros para aves em rede entrelaçada pintada a verde',
     },
     {
+      titulo: 'Viveiros para Aves',
+      categoria: 'Estruturas',
+      imagem: '/images/trabalhos/viveiros-para-aves-em-tubo-galvanizado.jpeg',
+      descricao: 'Viveiros para aves em tubo galvanizado',
+    },
+    {
       titulo: 'Portão seccionado',
       categoria: 'Portões',
       imagem: '/images/trabalhos/portao-seccionado.jpeg',
@@ -52,6 +58,12 @@ export default function Trabalhos() {
       descricao: 'Telhado totalmente coberto com painel sandwich',
     },
     {
+      titulo: 'Cobertura em Painel Sandwich',
+      categoria: 'Coberturas',
+      imagem: '/images/trabalhos/cobertura-painel-sandwich-2.jpeg',
+      descricao: 'Telhado de casa coberto com painel sandwich',
+    },
+    {
       titulo: 'Ripado em Tubo',
       categoria: 'Proteções',
       imagem: '/images/trabalhos/ripado-em-tubo.jpeg',
@@ -74,6 +86,12 @@ export default function Trabalhos() {
       categoria: 'Portões',
       imagem: '/images/trabalhos/portao-de-correr.jpeg',
       descricao: 'Portão de correr em alumínio',
+    },
+    {
+      titulo: 'Escadas em ferro',
+      categoria: 'Estruturas',
+      imagem: '/images/trabalhos/escadas-interiores-em-ferro.jpeg',
+      descricao: 'Escadas interiores em ferro para revestimento em madeira',
     },
   ];
 
