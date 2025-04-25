@@ -1,0 +1,212 @@
+{
+    "index": {
+      "title": "Iron and Aluminium Specialists",
+      "metaDescription": "Serralharia Casal in Barcelos: 20+ years of experience in gates, metal structures, roofing and aluminium. Ask for your free quote now!",
+      "metaKeywords": "barcelos metalwork, automatic gates, metal structures, roofing, aluminium, iron, stainless steel, free quote",
+      "bannerAlt": "Serralharia Casal - Iron and aluminium works in Barcelos"
+    },
+    "hero.title": "Quality and Precision in Every Project",
+    "hero.subtitle": "Custom solutions in iron and aluminum",
+    "hero.cta": "Request a Quote",
+    "services.title": "Our Services",
+    "gallery.title": "Completed Projects",
+    "gallery.cta": "View All Projects",
+    "services": [
+      {
+        "titulo": "Iron and Stainless Steel Work",
+        "descricao": "Manufacture and installation of iron and stainless steel structures for various purposes."
+      },
+      {
+        "titulo": "Aluminum Gates and Frames",
+        "descricao": "Complete solutions in welded gates and aluminum frames."
+      },
+      {
+        "titulo": "Sectional Doors",
+        "descricao": "Installation and maintenance of all types of sectional doors."
+      },
+      {
+        "titulo": "Sandwich Panel Roofing",
+        "descricao": "Assembly of all types of sandwich panel roofing."
+      }
+    ],
+    "trabalhos": [
+      { "titulo": "Patio with Sandwich Panel Roof" },
+      { "titulo": "Galvanized Tube Screen" },
+      { "titulo": "Sliding Gate" }
+    ],
+    "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "projects": "Projects",
+    "contact": "Contact"
+    },
+    "footer.contactTitle": "Contact us",
+    "footer.name": "Name",
+    "footer.email": "Email",
+    "footer.message": "Message",
+    "footer.submit": "Continue",
+    "footer.locationTitle": "Location",
+    "footer.addressLabel": "Address",
+    "footer.phoneLabel": "Phone",
+    "footer.followUs": "Follow us on social media:",
+    "footer.copyright": "All rights reserved.",
+    "about": {
+      "title": "About Us",
+      "metaDescription": "Learn about the history of Serralharia Casal",
+      "heading": "About Us",
+      "imageAlt": "Serralharia History",
+      "subheading": "Tradition and Innovation for Over 20 Years",
+      "p1": "Serralharia Casal, founded over 20 years ago, is currently located in the parish of Aldreu, in the municipality of Barcelos.",
+      "p2": "Our employees are professional, experienced, and skilled. We carry out work in aluminum, iron, and stainless steel. We manufacture all types of aluminum and stainless steel frames, metal structures, safety grilles, sandwich panel roofing, sectional gates, and all automation for proper operation.",
+      "callToAction": "Contact us today for a free quote!",
+      "mission": {
+        "title": "Mission",
+        "text": "To provide excellent metalwork solutions with quality and commitment to customer satisfaction."
+      },
+      "vision": {
+        "title": "Vision",
+        "text": "To be recognized as a reference in quality and innovation in the metalwork sector throughout the region."
+      },
+      "values": {
+        "title": "Values",
+        "text": "Quality, commitment, innovation, ethics, and respect are the pillars that guide our daily work."
+      },
+      "statsTitle": "Numbers We're Proud Of",
+      "stats": {
+        "projects": "Completed Projects",
+        "clients": "Satisfied Clients",
+        "experience": "Years of Experience"
+      }
+    },
+    "obras": {
+      "title": "Our Work",
+      "testemunhosTitle": "What Our Clients Say",
+      "metaDescription": "See some of our work at Serralharia Casal",
+      "itens": [
+      {
+        "titulo": "Bird Aviaries",
+        "categoria": "Structures",
+        "descricao": "Aviaries made of green-painted interlaced mesh",
+        "imagem": "/images/trabalhos/viveiros-em-rede.jpeg"
+      },
+      {
+        "titulo": "Bird Aviaries",
+        "categoria": "Structures",
+        "descricao": "Aviaries made of galvanized tubes",
+        "imagem": "/images/trabalhos/viveiros-para-aves-em-tubo-galvanizado.jpeg"
+      },
+      {
+        "titulo": "Sectional Gate",
+        "categoria": "Gates",
+        "descricao": "Sectional gate with RAL 7016 color motor",
+        "imagem": "/images/trabalhos/portao-seccionado.jpeg"
+      },
+      {
+        "titulo": "Gate and Pedestrian Door",
+        "categoria": "Gates",
+        "descricao": "Gate and pedestrian door in galvanized iron",
+        "imagem": "/images/trabalhos/portao-e-porta-pedonal.jpeg"
+      },
+      {
+        "titulo": "Terrace with Sandwich Panel",
+        "categoria": "Roofing",
+        "descricao": "Terrace with facade and roofing in sandwich panel",
+        "imagem": "/images/trabalhos/esplanada-em-painel-sandwich.jpeg"
+      },
+      {
+        "titulo": "Iron Railing",
+        "categoria": "Protection",
+        "descricao": "Iron railing for protection",
+        "imagem": "/images/trabalhos/grades.jpeg"
+      },
+      {
+        "titulo": "Iron Structure",
+        "categoria": "Structures",
+        "descricao": "Iron structure for elevator installation",
+        "imagem": "/images/trabalhos/estrutura.jpeg"
+      },
+      {
+        "titulo": "Sandwich Panel Roof",
+        "categoria": "Roofing",
+        "descricao": "Roof entirely covered with sandwich panel",
+        "imagem": "/images/trabalhos/cobertura-painel-sandwich.jpeg"
+      },
+      {
+        "titulo": "Sandwich Panel Roof",
+        "categoria": "Roofing",
+        "descricao": "House roof covered with sandwich panel",
+        "imagem": "/images/trabalhos/cobertura-painel-sandwich-2.jpeg"
+      },
+      {
+        "titulo": "Tube Louver",
+        "categoria": "Protection",
+        "descricao": "Galvanized tube louver",
+        "imagem": "/images/trabalhos/ripado-em-tubo.jpeg"
+      },
+      {
+        "titulo": "Pedestrian Door",
+        "categoria": "Gates",
+        "descricao": "Pedestrian door in wrought iron",
+        "imagem": "/images/trabalhos/porta-pedonal.jpeg"
+      },
+      {
+        "titulo": "Pedestrian Door",
+        "categoria": "Gates",
+        "descricao": "Pedestrian door in aluminum",
+        "imagem": "/images/trabalhos/porta-pedonal-2.jpeg"
+      },
+      {
+        "titulo": "Sliding Gate",
+        "categoria": "Gates",
+        "descricao": "Sliding gate in aluminum",
+        "imagem": "/images/trabalhos/portao-de-correr.jpeg"
+      },
+      {
+        "titulo": "Iron Stairs",
+        "categoria": "Structures",
+        "descricao": "Interior iron stairs for wood finishing",
+        "imagem": "/images/trabalhos/escadas-interiores-em-ferro.jpeg"
+      }
+    ],
+    "depoimentos": [
+      {
+        "texto": "Excellent work! The team was very professional and delivered the project exactly as planned.",
+        "autor": "Cláudia Silva"
+      },
+      {
+        "texto": "Great service and exceptional quality. They met all the deadlines.",
+        "autor": "Rui Fernandes"
+      },
+      {
+        "texto": "Highly skilled professionals. The final result exceeded our expectations.",
+        "autor": "Pedro Passos"
+      }
+    ]
+  },
+  "contact": {
+  "metaDescription": "Get in touch with Serralharia Casal for quotes and information.",
+  "title": "Contact Us",
+  "infoTitle": "Contact Information",
+  "addressLabel": "Address",
+  "address": "Rua De Brirães 20,\n4905-013 Aldreu\nBarcelos",
+  "phoneLabel": "Phone",
+  "phone": "934 984 968\n961 286 919",
+  "email": "Email",
+  "hoursTitle": "Working Hours",
+  "hours": "Monday to Friday: 8am to 5pm",
+  "lunchNote": "Lunch from 12pm to 1pm",
+  "locationTitle": "Location",
+  "formTitle": "Send Your Message",
+  "nome": "Full Name",
+  "telefone": "Phone",
+  "assunto": "Subject",
+  "mensagem": "Message",
+  "message": "Message",
+  "submit": "Send Message",
+  "sending": "Sending...",
+  "success": "Message sent successfully! We'll get back to you shortly.",
+  "error": "Failed to send message. Please try again."
+  },
+  "headerSpan": "Open main menu"
+}
+  

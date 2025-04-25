@@ -1,58 +1,54 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ImageModal from '../components/ImageModal';
 
 export default function Home() {
   const [selectedImage, setSelectedImage] = useState<{ url: string; title: string } | null>(null);
+  const { t } = useTranslation();
+  const [isClient, setIsClient] = useState(false);
 
-  const servicos = [
-    {
-      titulo: 'Trabalho em Ferro e Aço Inox',
-      descricao: 'Fabricação e instalação de estruturas em ferro e aço inox para diversos fins.',
-      imagem: '/images/servicos/ferro.jpg',
-    },
-    {
-      titulo: 'Portões e Caixilharia em Alumínio',
-      descricao: 'Soluções completas em portões soldados e caixilharia de alumínio.',
-      imagem: '/images/servicos/aluminio.jpg',
-    },
-    {
-      titulo: 'Portões Seccionados',
-      descricao: 'Instalação e manutenção de todo o tipo de portões seccionados.',
-      imagem: '/images/servicos/portao-seccionado.jpg',
-    },
-    {
-      titulo: 'Coberturas em Painel Sandwich',
-      descricao: 'Montagem de todo o tipo de coberturas em painel sandwich.',
-      imagem: '/images/servicos/painel-sandwich.jpg',
-    },
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+if (!isClient) return null;
+
+  const rawServicos = t('services', { returnObjects: true });
+  const rawTrabalhos = t('trabalhos', { returnObjects: true });
+
+  const servicos = Array.isArray(rawServicos) ? rawServicos : [];
+  const trabalhos = Array.isArray(rawTrabalhos) ? rawTrabalhos : [];
+
+  const imagensServico = [
+    '/images/servicos/ferro.jpg',
+    '/images/servicos/aluminio.jpg',
+    '/images/servicos/portao-seccionado.jpg',
+    '/images/servicos/painel-sandwich.jpg'
   ];
 
-  const trabalhos = [
-    {
-      titulo: 'Esplanada em Painel Sandwich',
-      imagem: '/images/trabalhos/esplanada-em-painel-sandwich.jpeg',
-    },
-    {
-      titulo: 'Ripado em Tubo Galvanizado',
-      imagem: '/images/trabalhos/ripado-em-tubo.jpeg',
-    },
-    {
-      titulo: 'Portão de Correr',
-      imagem: '/images/trabalhos/portao-de-correr.jpeg',
-    },
+  const imagensTrabalho = [
+    '/images/trabalhos/esplanada-em-painel-sandwich.jpeg',
+    '/images/trabalhos/ripado-em-tubo.jpeg',
+    '/images/trabalhos/portao-de-correr.jpeg'
   ];
 
   return (
     <>
       <Head>
-        <title>Serralharia Casal - Especialistas em Ferro e Alumínio</title>
-        <meta name="description" content="Serralharia Casal em Barcelos: 20+ anos de experiência em portões, estruturas metálicas, coberturas e alumínios. Peça já o seu orçamento gratuito!" />
-        <meta name="keywords" content="serralharia barcelos, portões automáticos, estruturas metálicas, coberturas, alumínio, ferro, aço inox, orçamento grátis" />
+        <title>Serralharia Casal - {t('index.title')}</title>
+        <meta
+          name="description"
+          content={t('index.metaDescription')}
+        />
+        <meta
+          name="keywords"
+          content={t('index.metaKeywords')}
+        />
       </Head>
 
       <Header />
@@ -62,24 +58,20 @@ export default function Home() {
         <section className="relative h-[600px]">
           <Image
             src="/images/banner.jpg"
-            alt="Serralharia Casal - Trabalhos em Ferro e Alumínio em Barcelos"
+            alt={t('index.bannerAlt')}
             fill
             className="object-cover"
             priority
           />
           <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                Qualidade e Precisão em Cada Projeto
-              </h1>
-              <p className="text-xl md:text-2xl mb-8">
-                Soluções personalizadas em ferro e alumínio
-              </p>
+              <h1 className="text-4xl md:text-6xl font-bold mb-4">{t('hero.title')}</h1>
+              <p className="text-xl md:text-2xl mb-8">{t('hero.subtitle')}</p>
               <Link
                 href="/contacto"
                 className="bg-primary hover:bg-primary/90 text-white font-bold py-3 px-8 rounded-md transition-colors duration-200"
               >
-                Solicite um Orçamento
+                {t('hero.cta')}
               </Link>
             </div>
           </div>
@@ -89,7 +81,7 @@ export default function Home() {
         <section className="section bg-gray-50">
           <div className="container">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Nossos Serviços
+              {t('services.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               {servicos.map((servico, index) => (
@@ -99,7 +91,7 @@ export default function Home() {
                 >
                   <div className="relative h-48 overflow-hidden">
                     <Image
-                      src={servico.imagem}
+                      src={imagensServico[index]}
                       alt={servico.titulo}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -119,17 +111,17 @@ export default function Home() {
         <section className="section">
           <div className="container">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              Trabalhos Realizados
+              {t('gallery.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {trabalhos.map((trabalho, index) => (
                 <div
                   key={index}
                   className="group relative h-64 overflow-hidden rounded-lg cursor-pointer"
-                  onClick={() => setSelectedImage({ url: trabalho.imagem, title: trabalho.titulo })}
+                  onClick={() => setSelectedImage({ url: imagensTrabalho[index], title: trabalho.titulo })}
                 >
                   <Image
-                    src={trabalho.imagem}
+                    src={imagensTrabalho[index]}
                     alt={trabalho.titulo}
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -145,7 +137,7 @@ export default function Home() {
                 href="/trabalhos"
                 className="inline-block bg-primary hover:bg-primary/90 text-white font-bold py-3 px-8 rounded-md transition-colors duration-200"
               >
-                Ver Todos os Trabalhos
+                {t('gallery.cta')}
               </Link>
             </div>
           </div>
@@ -162,4 +154,4 @@ export default function Home() {
       />
     </>
   );
-} 
+}

@@ -1,3 +1,4 @@
+import '@/i18n';
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import React from 'react';

@@ -1,0 +1,212 @@
+{
+    "index": {
+      "title": "Especialistas em Ferro e Alumínio",
+      "metaDescription": "Serralharia Casal em Barcelos: 20+ anos de experiência em portões, estruturas metálicas, coberturas e alumínios. Peça já o seu orçamento gratuito!",
+      "metaKeywords": "serralharia barcelos, portões automáticos, estruturas metálicas, coberturas, alumínio, ferro, aço inox, orçamento grátis",
+      "bannerAlt": "Serralharia Casal - Trabalhos em Ferro e Alumínio em Barcelos"
+    },
+    "hero.title": "Qualidade e Precisão em Cada Projeto",
+    "hero.subtitle": "Soluções personalizadas em ferro e alumínio",
+    "hero.cta": "Solicite um Orçamento",
+    "services.title": "Nossos Serviços",
+    "gallery.title": "Trabalhos Realizados",
+    "gallery.cta": "Ver Todos os Trabalhos",
+    "services": [
+      {
+        "titulo": "Trabalho em Ferro e Aço Inox",
+        "descricao": "Fabricação e instalação de estruturas em ferro e aço inox para diversos fins."
+      },
+      {
+        "titulo": "Portões e Caixilharia em Alumínio",
+        "descricao": "Soluções completas em portões soldados e caixilharia de alumínio."
+      },
+      {
+        "titulo": "Portões Seccionados",
+        "descricao": "Instalação e manutenção de todo o tipo de portões seccionados."
+      },
+      {
+        "titulo": "Coberturas em Painel Sandwich",
+        "descricao": "Montagem de todo o tipo de coberturas em painel sandwich."
+      }
+    ],
+    "trabalhos": [
+      { "titulo": "Esplanada em Painel Sandwich" },
+      { "titulo": "Ripado em Tubo Galvanizado" },
+      { "titulo": "Portão de Correr" }
+    ],
+    "nav": {
+    "home": "Início",
+    "about": "Sobre nós",
+    "projects": "Trabalhos",
+    "contact": "Contacto"
+    },
+    "footer.contactTitle": "Entre em Contacto",
+    "footer.name": "Nome",
+    "footer.email": "Email",
+    "footer.message": "Mensagem",
+    "footer.submit": "Continuar",
+    "footer.locationTitle": "Localização",
+    "footer.addressLabel": "Endereço",
+    "footer.phoneLabel": "Telefone",
+    "footer.followUs": "Siga-nos nas redes sociais:",
+    "footer.copyright": "Todos os direitos reservados.",
+    "about": {
+      "title": "Sobre Nós",
+      "metaDescription": "Conheça a história da Serralharia Casal",
+      "heading": "Sobre Nós",
+      "imageAlt": "História da Serralharia",
+      "subheading": "Tradição e Inovação à mais de 20 anos",
+      "p1": "A Serralharia Casal, fundada à mais de 20 anos, situa-se atualmente na freguesia de Aldreu no concelho de Barcelos.",
+      "p2": "Os nossos funcionários são profissionais, experientes e competentes. Executamos trabalhos em alumínio, ferro e aço inox. Fabricamos toda a caixilharia em alumínio e aço inox, estruturas metálicas, grades de segurança, coberturas em painel sandwich, portões seccionados e todos os automatismos para a sua correta funcionalidade.",
+      "callToAction": "Contacte-nos e peça já o seu orçamento!",
+      "mission": {
+        "title": "Missão",
+        "text": "Oferecer soluções em serralharia com excelência, qualidade e compromisso com a satisfação dos nossos clientes."
+      },
+      "vision": {
+        "title": "Visão",
+        "text": "Ser reconhecida como referência em qualidade e inovação no setor de serralharia em toda a região."
+      },
+      "values": {
+        "title": "Valores",
+        "text": "Qualidade, compromisso, inovação, ética e respeito são os pilares que guiam nosso trabalho diário."
+      },
+      "statsTitle": "Números que nos Orgulham",
+      "stats": {
+        "projects": "Obras Realizadas",
+        "clients": "Clientes Satisfeitos",
+        "experience": "Anos de Experiência"
+      }
+    },
+    "obras": {
+      "title": "Nossos Trabalhos",
+      "testemunhosTitle": "O que Nossos Clientes Dizem",
+      "metaDescription": "Conheça alguns dos nossos trabalhos na Serralharia Casal",
+      "itens": [
+      {
+        "titulo": "Viveiros para Aves",
+        "categoria": "Estruturas",
+        "descricao": "Viveiros para aves em rede entrelaçada pintada a verde",
+        "imagem": "/images/trabalhos/viveiros-em-rede.jpeg"
+      },
+      {
+        "titulo": "Viveiros para Aves",
+        "categoria": "Estruturas",
+        "descricao": "Viveiros para aves em tubo galvanizado",
+        "imagem": "/images/trabalhos/viveiros-para-aves-em-tubo-galvanizado.jpeg"
+      },
+      {
+        "titulo": "Portão Seccionado",
+        "categoria": "Portões",
+        "descricao": "Portão seccionado com motor cor RAL 7016",
+        "imagem": "/images/trabalhos/portao-seccionado.jpeg"
+      },
+      {
+        "titulo": "Portão e Porta Pedonal",
+        "categoria": "Portões",
+        "descricao": "Portão e porta pedonal em ferro galvanizado",
+        "imagem": "/images/trabalhos/portao-e-porta-pedonal.jpeg"
+      },
+      {
+        "titulo": "Esplanada em Painel Sandwich",
+        "categoria": "Coberturas",
+        "descricao": "Esplanada com fachada e cobertura em painel sandwich",
+        "imagem": "/images/trabalhos/esplanada-em-painel-sandwich.jpeg"
+      },
+      {
+        "titulo": "Gradeamento",
+        "categoria": "Proteções",
+        "descricao": "Gradeamento em ferro para proteção",
+        "imagem": "/images/trabalhos/grades.jpeg"
+      },
+      {
+        "titulo": "Estrutura em Ferro",
+        "categoria": "Estruturas",
+        "descricao": "Estrutura em ferro para colocação de elevador",
+        "imagem": "/images/trabalhos/estrutura.jpeg"
+      },
+      {
+        "titulo": "Cobertura em Painel Sandwich",
+        "categoria": "Coberturas",
+        "descricao": "Telhado totalmente coberto com painel sandwich",
+        "imagem": "/images/trabalhos/cobertura-painel-sandwich.jpeg"
+      },
+      {
+        "titulo": "Cobertura em Painel Sandwich",
+        "categoria": "Coberturas",
+        "descricao": "Telhado de casa coberto com painel sandwich",
+        "imagem": "/images/trabalhos/cobertura-painel-sandwich-2.jpeg"
+      },
+      {
+        "titulo": "Ripado em Tubo",
+        "categoria": "Proteções",
+        "descricao": "Ripado em tubo galvanizado",
+        "imagem": "/images/trabalhos/ripado-em-tubo.jpeg"
+      },
+      {
+        "titulo": "Porta Pedonal",
+        "categoria": "Portões",
+        "descricao": "Porta pedonal em ferro trabalhado",
+        "imagem": "/images/trabalhos/porta-pedonal.jpeg"
+      },
+      {
+        "titulo": "Porta Pedonal",
+        "categoria": "Portões",
+        "descricao": "Porta pedonal em alumínio",
+        "imagem": "/images/trabalhos/porta-pedonal-2.jpeg"
+      },
+      {
+        "titulo": "Portão de Correr",
+        "categoria": "Portões",
+        "descricao": "Portão de correr em alumínio",
+        "imagem": "/images/trabalhos/portao-de-correr.jpeg"
+      },
+      {
+        "titulo": "Escadas em Ferro",
+        "categoria": "Estruturas",
+        "descricao": "Escadas interiores em ferro para revestimento em madeira",
+        "imagem": "/images/trabalhos/escadas-interiores-em-ferro.jpeg"
+      }
+    ],
+    "depoimentos": [
+      {
+        "texto": "Excelente trabalho! A equipa foi muito profissional e entregou o projeto exatamente como planeado.",
+        "autor": "Cláudia Silva"
+      },
+      {
+        "texto": "Ótimo atendimento e qualidade excecional no serviço. Cumpriram todos os prazos estabelecidos.",
+        "autor": "Rui Fernandes"
+      },
+      {
+        "texto": "Profissionais altamente qualificados. O resultado final superou as nossas expectativas.",
+        "autor": "Pedro Passos"
+      }
+    ]
+    },
+    "contact": {
+    "metaDescription": "Entre em contacto com a Serralharia Casal para orçamentos e informações.",
+    "title": "Entre em Contacto",
+    "infoTitle": "Informações de Contacto",
+    "addressLabel": "Endereço",
+    "address": "Rua De Brirães 20,\n4905-013 Aldreu\nBarcelos",
+    "phoneLabel": "Telefone",
+    "phone": "934 984 968\n961 286 919",
+    "email": "Email",
+    "hoursTitle": "Horário de Funcionamento",
+    "hours": "Segunda a Sexta: 8h às 17h",
+    "lunchNote": "Almoço das 12h às 13h",
+    "locationTitle": "Localização",
+    "formTitle": "Envie a sua Mensagem",
+    "nome": "Nome Completo",
+    "telefone": "Telefone",
+    "assunto": "Assunto",
+    "mensagem": "Mensagem",
+    "message": "Mensagem",
+    "submit": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso! Entraremos em contacto em breve.",
+    "error": "Erro ao enviar mensagem. Por favor, tente novamente."
+    },
+    "headerSpan": "Abrir menu principal"
+}
+  
